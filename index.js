@@ -16,13 +16,14 @@ const makeCommit = (n) => {
     const data = { date: DATE };
     console.log(DATE);
     
+    
     jsonfile.writeFile(FILE_PATH, data, () => {
         simpleGit().add(['data.json', 'index.js']).commit(DATE, {'--date': DATE },
         makeCommit.bind(this, --n));
     });
 };
 
-makeCommit(500);
+makeCommit(50);
 
 //--------------------Fixed date: exactly 1 year ago------------------//
 

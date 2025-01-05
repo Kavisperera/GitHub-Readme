@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/JaniKeminda/GitHub-Readme.git)"
+    "url": "(https://github.com/Kavisperera/GitHub-Readme.git)"
   },
-  "author": "JaniKeminda",
+  "author": "Kavisperera",
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^6.1.0",

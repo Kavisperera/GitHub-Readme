@@ -22,7 +22,7 @@ const makeCommit = (n) => {
     });
 };
 
-makeCommit(20);
+makeCommit(5);
 
 //--------------------Fixed date: exactly 1 year ago------------------//
 
